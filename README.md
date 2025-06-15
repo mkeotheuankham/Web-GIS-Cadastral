@@ -1,5 +1,5 @@
 ໂຄງສ້າງໂປຣແກຣມ
-
+---------------------------------------------------    
 gis-cadastral/  
 ├── client/                 # ສ່ວນ Frontend (Vue.js)  
 │   ├── public/             # ໄຟລ໌ສະຖິຕິ  
@@ -37,6 +37,7 @@ gis-cadastral/
 ├── docker-compose.yml    # ຄຳສັ່ງ Docker ສຳຫຼັບລະບົບ  
 └── README.md            # ຄຳແນະນຳການຕິດຕັ້ງ  
 
+---------------------------------------------------    
 ລາຍລະອຽດໂຄງສ້າງ Client  
 1. ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ (UI Components)  
 components/  
@@ -66,6 +67,7 @@ composables/
 ├── useGis.js         # ບໍລິການ GIS  
 └── useApi.js         # ການເຊື່ອມຕໍ່ API
 
+---------------------------------------------------    
 ລາຍລະອຽດໂຄງສ້າງ Server  
 1. ເສັ້ນທາງ API
 routes/  
@@ -84,6 +86,7 @@ middlewares/
 ├── auth.middleware.js # ກວດສອບການເຂົ້າສູ່ລະບົບ  
 └── role.middleware.js # ກວດສອບສິດທິ
 
+---------------------------------------------------    
 ການຕັ້ງຄ່າ GeoServer  
 geoserver/  
 ├── data_dir/  
@@ -92,6 +95,7 @@ geoserver/
 │   └── layers/        # ຂໍ້ມູນ Layer  
 └── dockerfile        # ຄຳສັ່ງຕິດຕັ້ງ  
 
+---------------------------------------------------    
 ຄຳສັ່ງ Docker  
 version: '3.8'  
 
@@ -145,7 +149,7 @@ volumes:
   postgres_data:  
   postgis_data:  
 
-
+---------------------------------------------------    
 ຄຸນສົມບັດລະບົບ  
 
 1. ການເຂົ້າສູ່ລະບົບ  
@@ -168,6 +172,7 @@ volumes:
 * ການຈັດການບົດບາດ  
 * ການຕິດຕາມການໃຊ້ງານ  
 
+---------------------------------------------------    
 ເຕັກໂນໂລຊີທີ່ໃຊ້  
 * Frontend: Vue 3, OpenLayers, Ant Design Vue, Pinia, Axios  
 * Backend: Node.js, Express, PostgreSQL, PostGIS  
