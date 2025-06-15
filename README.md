@@ -180,4 +180,5 @@ volumes:
 * Authentication: Firebase Auth  
 * Containerization: Docker, Docker Compose  
 
+---------------------------------------------------    
 ລະບົບນີ້ສາມາດຂະຫຍາຍຄວາມສາມາດໄດ້ຕາມຄວາມຕ້ອງການ ແລະ ເປັນໂຄງສ້າງທີ່ເໝາະສົມສຳຫຼັບການພັດທະນາ Web GIS ສຳຫຼັບວຽກງານ Cadastral.
